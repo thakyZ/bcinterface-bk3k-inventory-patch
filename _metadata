@@ -1,0 +1,11 @@
+{
+  "version" : "2.0.0",
+  "tags" : "User Interface",
+  "author" : "thakyZ, GoodGuy aka Nick Freeman",
+  "description" : "No vanilla inventory pls",
+  "requires" : ["bk3k_inventory"],
+  "name" : "ggn_interface_bk3kpatch",
+  "friendlyName" : "BCInterface - bk3k's Inventory Patch",
+  "steamContentId" : "1593291525",
+  "link" : "steam://url/CommunityFilePage/1593291525"
+}

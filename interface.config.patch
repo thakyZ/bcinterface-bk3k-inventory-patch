@@ -1,0 +1,5 @@
+[    
+    { "op": "replace", "path": "/paneIconOffset", "value": [6, 1] },
+    { "op": "replace", "path": "/paneTitleOffset", "value": [31, 13] },
+    { "op": "replace", "path": "/paneSubTitleOffset", "value": [31, 3] }
+]

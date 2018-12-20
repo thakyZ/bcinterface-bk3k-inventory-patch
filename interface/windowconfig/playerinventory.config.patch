@@ -1,0 +1,207 @@
+[
+  { "op": "replace", "path": "/defaultPetNameLabel", "value": "^#b9b5b2;COMPANION" }, 
+  { "op": "replace", "path": "/paneLayout/companionName/value", "value": "" },
+  { "op": "replace", "path": "/paneLayout/companionName/position", "value": [100, 244] },
+  { "op": "replace", "path": "/paneLayout/companionName/hAnchor", "value": "right" },    
+  { "op": "add", "path": "/paneLayout/companionName/fontSize", "value": 7 },
+  
+  { "op": "replace", "path": "/paneLayout/companionSlot/position", "value": [85, 266] },
+  { "op": "replace", "path": "/paneLayout/companionHealthBar/position", "value": [22, 255] },
+  { "op": "replace", "path": "/paneLayout/companionAttackStat/position", "value": [44, 272] },
+  { "op": "replace", "path": "/paneLayout/companionDefenseStat/position", "value": [44, 263] },  
+  
+  { "op": "remove", "path": "/paneLayout/labelappearance" },
+  { "op": "remove", "path": "/paneLayout/labelstats" },
+  { "op": "remove", "path": "/paneLayout/labeltech" },
+  
+  { "op": "remove", "path": "/paneLayout/companionAtkR" },
+  { "op": "remove", "path": "/paneLayout/companionDefR" },
+  { "op": "remove", "path": "/paneLayout/companionHPR" },
+  
+  { "op": "add", "path": "/paneLayout/bgShine", "value": {
+      "type": "image",
+      "file": "/interface/bk3k_inventory/shine.png",
+      "position": [3, 3],
+      "zlevel": -10
+    }
+  },
+  
+  { "op": "replace", "path": "/paneLayout/close/position", "value": [296, 298] },
+  { "op": "replace", "path": "/paneLayout/sort/position", "value": [294, 7] },
+  { "op": "replace", "path": "/paneLayout/trash/position", "value": [286, 191] },  
+  
+  { "op": "replace", "path": "/paneLayout/imgMoneyIcon/position", "value": [9, 10] },
+  { "op": "replace", "path": "/paneLayout/lblMoney/position", "value": [21, 9] },
+  { "op": "replace", "path": "/paneLayout/imgEssenceIcon/position", "value": [83, 9] },
+  { "op": "replace", "path": "/paneLayout/lblEssence/position", "value": [98,  9] },
+  
+  { "op": "replace", "path": "/paneLayout/newGeneralItems/position", "value": [13, 197] },
+  { "op": "replace", "path": "/paneLayout/newArmoryItems/position", "value": [40, 197] },
+  { "op": "replace", "path": "/paneLayout/newTileItems/position", "value": [67, 197] },
+  { "op": "replace", "path": "/paneLayout/newObjectItems/position", "value": [94, 197] },
+  { "op": "replace", "path": "/paneLayout/newObjectItems2/position", "value": [121, 197] },
+  { "op": "replace", "path": "/paneLayout/newReagentItems/position", "value": [148, 197] },
+  { "op": "replace", "path": "/paneLayout/newFoodItems/position", "value": [175, 197] },
+  { "op": "replace", "path": "/paneLayout/newFarmItems/position", "value": [202, 197] },
+  { "op": "replace", "path": "/paneLayout/newHobbyItems/position", "value": [229, 197] },
+  { "op": "replace", "path": "/paneLayout/newVehicleItems/position", "value": [256, 197] },
+  
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/position", "value": [1, 188] },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/0", "value":
+    {
+      "id": 0,
+      "baseImage": "/interface/bk3k_inventory/bigbag.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigbag.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigbag.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigbag.png:base",
+      "position": [7, 0],
+      "data": "showMainGrid",
+      "selected": true,
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/1", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigArmory.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigArmory.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigArmory.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigArmory.png:base",
+      "position": [34, 0],
+      "data": "showArmoryGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/2", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigcart.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigcart.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigcart.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigcart.png:base",
+      "position": [61, 0],
+      "data": "showTileGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/3", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigobj.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigobj.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigobj.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigobj.png:base",
+      "position": [88, 0],
+      "data": "showObjectGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/4", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigDecoration.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigDecoration.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigDecoration.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigDecoration.png:base",
+      "position": [115, 0],
+      "data": "showObjectGrid2",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/5", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigrea.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigrea.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigrea.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigrea.png:base",
+      "position": [142, 0],
+      "data": "showReagentGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/6", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigfood.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigfood.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigfood.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigfood.png:base",
+      "position": [169, 0],
+      "data": "showFoodGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/7", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigFarm.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigFarm.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigFarm.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigFarm.png:base",
+      "position": [196, 0],
+      "data": "showFarmGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/8", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigHobby.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigHobby.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigHobby.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigHobby.png:base",
+      "position": [223, 0],
+      "data": "showhobbyGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  { "op": "replace", "path": "/paneLayout/gridModeSelector/buttons/9", "value":
+    {
+      "baseImage": "/interface/bk3k_inventory/bigVehicle.png:pressed",
+      "baseImageChecked": "/interface/bk3k_inventory/bigVehicle.png:baseChecked",
+      "hoverImage": "/interface/bk3k_inventory/bigVehicle.png:base",
+      "hoverImageChecked": "/interface/bk3k_inventory/bigVehicle.png:base",
+      "position": [250, 0],
+      "data": "showVehicleGrid",
+      "pressedOffset": [0, 0]
+    }
+  },
+  
+  { "op": "replace", "path": "/paneLayout/portrait/position", "value": [158.5, 251.5] },
+  { "op": "replace", "path": "/paneLayout/portrait/scale", "value": 1.2 },  
+  
+  { "op": "replace", "path": "/paneLayout/mainItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/armoryItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/tileItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/objectItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/objectItemGrid2/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/reagentItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/foodItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/farmItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/hobbyItemGrid/position", "value": [8, 25] },
+  { "op": "replace", "path": "/paneLayout/vehicleItemGrid/position", "value": [8, 25] },
+  
+  { "op": "replace", "path": "/paneLayout/head/position", "value": [192, 258] },
+  { "op": "replace", "path": "/paneLayout/chest/position", "value": [192, 238] },
+  { "op": "replace", "path": "/paneLayout/legs/position", "value": [192, 218] },
+  { "op": "replace", "path": "/paneLayout/back/position", "value": [107, 248] },
+  { "op": "replace", "path": "/paneLayout/headCosmetic/position", "value": [212, 258] },
+  { "op": "replace", "path": "/paneLayout/chestCosmetic/position", "value": [212, 238] },
+  { "op": "replace", "path": "/paneLayout/legsCosmetic/position", "value": [212, 218] },
+  { "op": "replace", "path": "/paneLayout/backCosmetic/position", "value": [107, 228] },
+  
+  { "op": "replace", "path": "/paneLayout/techHead/position", "value": [23, 230] },
+  { "op": "replace", "path": "/paneLayout/techHeadDisabled/position", "value": [15, 221] },
+  { "op": "replace", "path": "/paneLayout/techBody/position", "value": [54, 230] },
+  { "op": "replace", "path": "/paneLayout/techBodyDisabled/position", "value": [45, 221] },
+  { "op": "replace", "path": "/paneLayout/techLegs/position", "value": [84, 230] },
+  { "op": "replace", "path": "/paneLayout/techLegsDisabled/position", "value": [75, 221] },
+  
+  { "op": "replace", "path": "/paneLayout/healthtext/position", "value": [281, 270] },
+  { "op": "replace", "path": "/paneLayout/energytext/position", "value": [281, 253] },
+  { "op": "replace", "path": "/paneLayout/defensetext/position", "value": [281, 219] },
+  { "op": "replace", "path": "/paneLayout/weapontext/position", "value": [287, 236] },
+  
+  { "op": "replace", "path": "/paneLayout/healthtext/hAnchor", "value": "right" },
+  { "op": "replace", "path": "/paneLayout/energytext/hAnchor", "value": "right" },
+  { "op": "replace", "path": "/paneLayout/defensetext/hAnchor", "value": "right" },
+  { "op": "replace", "path": "/paneLayout/weapontext/hAnchor", "value": "right" },
+  
+  { "op": "add", "path": "/paneLayout/healthtext/fontSize", "value": 7 },
+  { "op": "add", "path": "/paneLayout/energytext/fontSize", "value": 7 },
+  { "op": "add", "path": "/paneLayout/defensetext/fontSize", "value": 7 },
+  { "op": "add", "path": "/paneLayout/weapontext/fontSize", "value": 7 }
+]

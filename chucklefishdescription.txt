@@ -4,7 +4,10 @@ Will not work with any other re-skins of bk3k's inventory.
 Credit to [URL=https://steamcommunity.com/id/goodguyn1ck]GoodGuy[/URL] for making the base mod and the base assets.
 Credit to [URL=https://steamcommunity.com/id/bk3000]bk3k[/URL] for his inventory revamp.
 
-[CODE]Images to be added soon.[/CODE]
+[IMG]https://raw.githubusercontent.com/thakyZ/bcinterface-bk3k-inventory-patch/media/previewimage.png[/IMG]
+[IMG]https://raw.githubusercontent.com/thakyZ/bcinterface-bk3k-inventory-patch/media/image0.png[/IMG]
+[IMG]https://raw.githubusercontent.com/thakyZ/bcinterface-bk3k-inventory-patch/media/image1.png[/IMG]
+[IMG]https://raw.githubusercontent.com/thakyZ/bcinterface-bk3k-inventory-patch/media/image2.png[/IMG]
 
 [B]Steam Workshop:[/B] [URL]https://steamcommunity.com/sharedfiles/filedetails/?id=1593291525[/URL]
 [B]Chucklefish Forums:[/B] [I]coming soon[/I]

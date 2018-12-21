@@ -1,0 +1,17 @@
+[b]Re-skins the bk3k's Inventory.[/b]
+
+Required items are required, as the game will most likely crash otherwise.
+Will not work with any other re-skins of bk3k's inventory.
+
+Credit to [url=https://steamcommunity.com/id/goodguyn1ck]GoodGuy[/url] for making the base mod and the base assets.
+Credit to [url=https://steamcommunity.com/id/bk3000]bk3k[/url] for his inventory revamp.
+
+[b]Steam Workshop:[/b] [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1593291525[/url]
+[b]Chucklefish Forums:[/b] [i]coming soon[/i]
+
+This mod requires bk3k's Inventory by bk3k
+[b]Steam Workshop:[/b] [url]https://steamcommunity.com/workshop/filedetails/?id=882900100[/url]
+[b]Chucklefish Forums:[/b] [url]https://community.playstarbound.com/resources/bk3ks-inventory.4569/[/url]
+
+I would recommend using this mod with the main BCInterface mod.
+[b]Steam Workshop:[/b] [url]https://steamcommunity.com/sharedfiles/filedetails/?id=1593291525[/url]
